@@ -26,7 +26,7 @@ Como método de evaluación del desempeño, dependerá del modelo que usted deci
 ​
 1. Para el **modelo de aprendizaje supervisado**, se utilizará la métrica `Accuracy` para las propiedades de precio bajo (low):
 ​
-$$ Recall=\frac{TP+ TN}{TP+TN+FP+FN}$$
+$$ Recall=\frac{TP+ TN} {TP+TN+FP+FN}$$
 
 ​
 Donde $TP$ son los verdaderos positivos, $FP$ los falsos positivos, $FN$ los falsos negativos y $FN$ los falsos negativos. </br>

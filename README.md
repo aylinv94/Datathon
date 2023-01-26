@@ -24,15 +24,15 @@ El proyecto consiste en lograr estimar adecuadamente el valor de una propiedad d
 ​
 Como método de evaluación del desempeño, dependerá del modelo que usted decida implementar.
 ​
-1. Para el **modelo de aprendizaje supervisado**, se utilizará la métrica `Accuracy` para las propiedades de precio bajo (low):
+1. Para el **modelo de aprendizaje supervisado**, se utilizará la métrica `Accuracy` para las propiedades de precio bajo (low):</br>
 ​
-$$ Recall=\frac{TP+ TN}{TP+TN+FP+FN}$$
+$$ Recall=\frac{TP+ TN}{TP+TN+FP+FN}$$</br>
 ​
 Donde $TP$ son los verdaderos positivos, $FP$ los falsos positivos, $FN$ los falsos negativos y $FN$ los falsos negativos. </br>
 ​
-2. Para el **modelo de aprendizaje no supervisado**, se utilizará la métrica `Silhouette score`:
+2. Para el **modelo de aprendizaje no supervisado**, se utilizará la métrica `Silhouette score`:</br>
 ​
-$$ Silhouette=\frac{b_i-a_i}{max(b_i,a_i)}$$
+$$ Silhouette=\frac{b_i-a_i}{max(b_i,a_i)}$$</br>
 ​
 Dónde $b_i$ es la distancia promedio al grupo más cercano desde el punto i, $a_i$ es la distancia promedio a todos los demás puntos del clúster al que pertenece el punto i. </br>
 

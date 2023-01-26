@@ -24,7 +24,7 @@ El proyecto consiste en lograr estimar adecuadamente el valor de una propiedad d
 ​
 Como método de evaluación del desempeño, dependerá del modelo que usted decida implementar.
 ​
-1. Para el **modelo de aprendizaje supervisado**, se utilizará la métrica `Accuracy` para las propiedades de precio bajo (low):</br>
+1. Para el **modelo de aprendizaje supervisado**, se utilizará la métrica `Accuracy` para las propiedades de precio bajo (low):
 ​
 $$ Recall=\frac{TP+ TN}{TP+TN+FP+FN}$$
 
